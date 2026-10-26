@@ -80,6 +80,8 @@ Este repositorio es público. Por ello:
 ```text
 sales-platform/
 ├── index.html
+├── prototypes/
+│   └── app-vendedor-v112.html
 ├── README.md
 ├── CHANGELOG.md
 ├── SECURITY.md
@@ -93,7 +95,7 @@ sales-platform/
 
 ## Ejecución del prototipo
 
-Para una revisión simple, abrir `index.html` en un navegador moderno. Algunas funciones utilizan APIs del navegador y almacenamiento local.
+Para una revisión simple, abrir `index.html` en un navegador moderno. El prototipo completo de la App del Vendedor está en `prototypes/app-vendedor-v112.html` (datos ficticios; en modo demostración se entra solo con el código de vendedor). Algunas funciones utilizan APIs del navegador y almacenamiento local.
 
 El módulo de Ficha Comercial referencia `Conector_Ficha_Comercial.html`. Ese componente debe incorporarse por separado cuando su versión aprobada esté disponible.
 
